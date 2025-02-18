@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mr Eaves XL Modern", sans-serif;
+}
+
+
+#navBar{
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar{
+    background:white;
+    padding: 0 !important;
+}
+.logo{
+    height: 100%;
+    width: 140px;
+}
+.navbar-nav li{
+    padding: 0px 10px;
+}
+.navbar-nav li a{
+    color: black;
+    font-weight: 700;
+    float: right;
+}
+.navbar-nav li a i{
+    color: black;
+    font-weight: 700;
+    float: right;
+}
+
+.fa-solid{
+    color: black;
+    font-size: 30px;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.navbar-toggler{
+    outline: none;
+}
+
+img .slide{
+    height: 520px;
+}
+.input-group{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.with-stroke{
+    position: relative;
+    margin-bottom: 30px;
+}
+.module-heading {
+    padding: 20px 0 10px 0;
+    font-family: "Mrs Eaves XL Serif", serif;
+    font-size: 28px;
+    line-height: 32px;
+    color: #2F4858;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.module-heading::after{
+    
+        position: absolute;
+        content: "";
+        width: 90px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        border-bottom: 1px solid #ED7745;
+    
+}
+.explore_heading_list{
+    font-size: 16px;
+    line-height: 20px
+}
+
+.player{
+    aspect-ratio: 16/9;
+    width: 100%;
+
+}
+.desc{
+    color: #999999;
+    margin: 0 auto 20px;
+    width: 80%;
+    font-size: 1rem;;
+}
+.shop_button{
+    background-color:#ED7745;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+}
+.shop_items{
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+/*Carousel*/
+.carousel-item {
+
+    transition: transform 10s linear;
+    
+    }
+
+   .visit-ro{
+    height: 400px;
+   }
+   .visit_co{
+    width: calc(100%/3);
+    margin-left: 30px;
+   }
+
+   .footer_item{
+    color: grey;
+    font-size: 1rem;
+   }
+
+   .footer-social{
+    text-align: left;
+    margin-left: -10px;
+    display: flex;
+    list-style: none;
+   }
+
+   .footer-bottom-row{
+    background-color: #2F4858;
+    
+   }
+   .footer_left{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+
+   .social_icon{
+    color: white;
+    font-size: 2rem;
+   }
