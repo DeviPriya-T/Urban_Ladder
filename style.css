@@ -153,3 +153,17 @@ img .slide{
     color: white;
     font-size: 2rem;
    }
+   @media screen and (max-width:600px) {
+    .footer-social{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+        .module-heading{
+            font-size: 1.5rem;
+        }
+
+}
